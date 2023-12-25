@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".SuccessActivity">
+
+    <!-- Image -->
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:src="@drawable/success"/>
+
+    <!-- Success Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Success!"
+        android:textSize="35sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/tropical_green"
+        android:textFontWeight="700"/>
+
+    <!-- Return To Home Button -->
+    <Button
+        android:id="@+id/success_return_home_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp"
+        android:elevation="10dp"
+        android:text="Return Home"/>
+
+
+</LinearLayout>
